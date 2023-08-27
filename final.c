@@ -6,7 +6,7 @@
  *     struct TreeNode *right;
  * };
  */
-int depth ( struct TreeNode* root , int x ) {
+int depth( struct TreeNode* root , int x ) {
     if( !root ) {
         return -1;
     }
