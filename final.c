@@ -41,7 +41,7 @@ bool isCousins( struct TreeNode* root , int x , int y ) {
         a1 = depth( root , x );
         a2 = depth( root , y );
         teste = parent( root , x , y );
-        if( a2 == a1 && teste == false ){
+        if( a2 == a1 && teste == false ) {
             return true;
         }
         else{
